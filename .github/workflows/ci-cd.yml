@@ -48,7 +48,6 @@ jobs:
 
       - name: Push image to Docker Hub
         run: |
-          # 이미지 ID = 도커 사용자 ID / 도커 레포지토리
           IMAGE_ID=nullisdefined/practice
 
           # Strip git ref prefix from version
